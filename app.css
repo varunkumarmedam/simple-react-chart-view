@@ -1,0 +1,26 @@
+.header{
+    color: white;
+    background-color: dodgerblue;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-content{
+    margin: 50px 150px;
+    padding: 25px;
+    border: solid grey;
+}
+
+.table-content{
+    margin-top: 50px;
+    max-height: 500px;
+    overflow: scroll;
+}
+
+.table-header{
+    position: sticky;
+    top: 0px;
+    background-color: white;
+}
